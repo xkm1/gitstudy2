@@ -25,3 +25,4 @@
     1、git status 查看所有文件状态
     2、git add . 添加所有文件到暂存区
     3、git commit -m 提交暂存区的内容到本地仓库
+    4、git push 将本地仓库上传
