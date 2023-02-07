@@ -24,10 +24,10 @@
 ## git 命令
     1、git init 初始化
     2、git clone [url] 克隆远程仓库
-    2、git status 查看所有文件状态
-    3、git add . 添加所有文件到暂存区
-    4、git commit -m 提交暂存区的内容到本地仓库
-    5、git push 将本地仓库上传
+    3、git status 查看所有文件状态
+    4、git add . 添加所有文件到暂存区
+    5、git commit -m 提交暂存区的内容到本地仓库
+    6、git push 将本地仓库上传
 
 ## git branch
     1、git branch [branch-name] 新建一个分支，但任然停留在当前分支
