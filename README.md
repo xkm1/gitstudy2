@@ -22,7 +22,17 @@
     5、git远程仓库(Remote Directory)
 
 ## git 命令
-    1、git status 查看所有文件状态
-    2、git add . 添加所有文件到暂存区
-    3、git commit -m 提交暂存区的内容到本地仓库
-    4、git push 将本地仓库上传
+    1、git init 初始化
+    2、git clone [url] 克隆远程仓库
+    2、git status 查看所有文件状态
+    3、git add . 添加所有文件到暂存区
+    4、git commit -m 提交暂存区的内容到本地仓库
+    5、git push 将本地仓库上传
+
+## git branch
+    1、git branch [branch-name] 新建一个分支，但任然停留在当前分支
+    2、git checkout -b [branch] 新建一个分支，并切换到该分支
+    3、git merge [branch] 合并指定分支到当前分支
+    4、git branch -d [branch-name] 删除分支
+    5、git branch -dr [remote/branch] 删除远程分支
+多个分支如果并行执行，代码也不会冲突，也就同时存在多个版本
